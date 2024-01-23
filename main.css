@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+  /* Base CSS code from README.md */
+
+/* Additional CSS for emoji cards layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .siteheader {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .emojis {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid layout with minimum 300px width for each card */
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure the border-radius clips the inner content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .emoji-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #781BAA;
+    padding-bottom: 0.5rem;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+  
+  .emoji p {
+    margin: 0;
+    padding-top: 0.5rem;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 0 0 8px 8px; /* Apply border-radius only to the bottom of the card */
+  }
+  
+  /* Add the rest of your existing CSS here */
+  
